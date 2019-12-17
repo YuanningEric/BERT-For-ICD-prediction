@@ -8,7 +8,7 @@ We provided a `environment.yml` file for the prerequisite packages.
 
 We provided a Jupyter notebook written in Python for data preprocessing, which can be found in the *notebooks_preprocessing_evaluation* folder. To improve the preprocessing efficiency, we also provided a PySpark version.
 
-## Datasets from Preprocessing
+## Input to the BERT Model
 We used the following output from the previous data preprocessing as input to the BERT model full label prediction: 
 ```
 train_full.csv
