@@ -1,11 +1,15 @@
 # clinical_bert_ICD_prediction
-This is the repository that stores the codes for adapting clinical bert on ICD code prediction based on discharge summaries. This ICD code prediction model was developed based on the fine-tuned model developed in this repo `https://github.com/EmilyAlsentzer/clinicalBERT`.
+This is the repository that stores the codes for adapting clinical bert on ICD code prediction based on discharge summaries. This ICD code prediction model was developed based on the fine-tuned ClinicalBert model developed in this repo `https://github.com/EmilyAlsentzer/clinicalBERT`.
 
 ## Before Your Start
 We provided a `environment.yml` file for the prerequisite packages. 
 
-## Download the Datasets
-We continue using the pre-processed data from previous CAML steps `https://github.gatech.edu/bd4h-2019fall-nlp/caml_mimic`. Following 3 datasets were used for full ICD-9 codes, 
+## Data Preprocessing / Tokenization / Word Embeddings
+
+We provided a Jupyter notebook written in Python for data preprocessing, which can be found in the *notebooks_preprocessing_evaluation* folder. To improve the preprocessing efficiency, we also provided a PySpark version.
+
+## Datasets from Preprocessing
+We used the following output from the previous data preprocessing as input to the BERT model full label prediction: 
 ```
 train_full.csv
 test_full.csv
@@ -30,7 +34,7 @@ This process takes quite amount of time (a few hours based on GPU utilization), 
 https://drive.google.com/open?id=1R3QUxY7yDnUbfpddYHaUKeTVpDDaMybd
 ```
 ### Model Evaluation
-At the end, run evaluation fuction under **Model Evaluation** section and obtain the evaluation results on test dataset.
+At the end, run evaluation fuction under **Model Evaluation** section and obtain the evaluation results on test dataset. We established the following evaluation matrics: AUC, recall, F1 score, Precision@n.
 
 ## References
 https://github.com/EmilyAlsentzer/clinicalBERT
