@@ -1,0 +1,24 @@
+name: bert_toxic
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python = 3.6
+  - pytorch
+  - tqdm
+  #- torchvision
+  #- cudatoolkit    # mac OS users should comment out this (for CPU only) or build from the source
+  - scikit-learn
+  - numpy
+  - scipy
+  - pandas
+  - pathlib
+  #- torch
+  #- jupyter-notebook
+  #- matplotlib==3.1.0
+  #- pytest
+  - pip
+  - pip:
+    - pytorch-pretrained-bert
+    - fastai
+    - ipywidgets

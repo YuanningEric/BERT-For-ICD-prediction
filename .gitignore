@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+clinical_bert_ICD.ipynb
+data/*.csv
+data/caml_process/
+pretrained_bert_tf*
+*.pkl
+data*
