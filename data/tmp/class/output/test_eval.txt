@@ -1,0 +1,3 @@
+***** Eval results *****eval_accuracy = 0.9979832863892525
+eval_loss = 0.010143328401585215
+roc_auc_micro = 0.9396364946623262

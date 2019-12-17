@@ -1,0 +1,15 @@
+Loss after epoc 0.11272902280767756
+Eval after epoc 1
+Loss after epoc 0.009023417735001295
+Eval after epoc 2
+Loss after epoc 0.00881045938834545
+Eval after epoc 3
+Loss after epoc 0.008783676205645867
+Eval after epoc 4
+roc_auc_micro = 0.9401465889208638
+***** Eval results *****eval_accuracy = 0.9980479956842653
+eval_loss = 0.00980976355977629
+roc_auc_micro = 0.9409308762000659
+***** Eval results *****eval_accuracy = 0.9980479956842653
+eval_loss = 0.009804663112069048
+roc_auc_micro = 0.9409883494932991
