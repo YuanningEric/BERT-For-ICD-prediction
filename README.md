@@ -4,6 +4,11 @@ This is the repository that stores the codes for adapting clinical bert on ICD c
 ## Before Your Start
 We provided a `environment.yml` file for the prerequisite packages. 
 
+
+## Dataset
+
+Datasets were extracted from the MIMIC III database. We used discharge summary with diagnostic ICD codes of each patient as our training data. Specificlly, we download three seperate datasets: NOTEEVENTS.csv, D_ICD_DIAGNOSES.csv, D_ICD_PROCEDURES.csv. 
+
 ## Data Preprocessing / Tokenization / Word Embeddings
 
 We provided a Jupyter notebook written in Python for data preprocessing, which can be found in the *notebooks_preprocessing_evaluation* folder. To improve the preprocessing efficiency, we also provided a PySpark version.
