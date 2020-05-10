@@ -1,5 +1,5 @@
-# clinical_bert_ICD_prediction
-This is the repository that stores the codes for adapting clinical bert on ICD code prediction based on discharge summaries. This ICD code prediction model was developed based on the fine-tuned ClinicalBert model developed in this repo `https://github.com/EmilyAlsentzer/clinicalBERT`.
+# Description
+This repository contains the codes that fine tune the BERT model for ICD code prediction using patient discharge summaries. Pre-trained clinical BERT can be found in this repository: `https://github.com/EmilyAlsentzer/clinicalBERT`.
 
 ## Before Your Start
 We provided a `environment.yml` file for the prerequisite packages. 
